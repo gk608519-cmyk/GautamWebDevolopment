@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090d">
+  <title>Gautam — Website Development Portfolio</title>
+  <meta name="description" content="Professional static, dynamic and animated website development by Gautam. Explore selected website projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Gautam home"><img class="brand-logo" src="gautam-logo.png" alt="Gautam logo"><span class="brand-copy"><span class="brand-name">Gautam<span class="brand-dot">.</span></span><span class="brand-sub">WEBSITE DEVELOPMENT</span></span></a>
+    <nav><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+    <a class="nav-cta" href="https://wa.me/919506437911" target="_blank" rel="noopener">Let's Talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow"><span class="pulse"></span> INDEPENDENT WEB DEVELOPER</div>
+      <h1>Websites that make<br><span class="gradient-text">businesses stand out.</span></h1>
+      <p class="hero-copy">I create professional, modern and responsive websites that help businesses build a strong online presence.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↓</span></a><a class="button button-quiet" href="https://wa.me/919506437911" target="_blank" rel="noopener">Start a project <span>↗</span></a></div>
+      <div class="hero-foot"><span>DESIGN-LED DEVELOPMENT</span><span>BUILT WITH PURPOSE · MADE FOR PEOPLE</span></div>
+    </section>
+
+    <section class="work-section section-wrap" id="work">
+      <div class="section-heading">
+        <div><div class="eyebrow">SELECTED PROJECTS</div><h2>Explore my <span class="gradient-text">work.</span></h2></div>
+        <p>Choose a category and explore the websites I've created.</p>
+      </div>
+      <div class="portfolio-layout">
+        <aside class="categories" aria-label="Project categories">
+          <div class="category-label">CATEGORIES</div>
+          <div id="category-list" class="category-list"></div>
+        </aside>
+        <div class="projects-area">
+          <div class="projects-top"><span id="project-count">All projects</span><span class="live-label"><i></i> LIVE PORTFOLIO</span></div>
+          <div class="project-grid" id="project-grid"></div>
+          <div class="empty-state hidden" id="empty-state"><div class="empty-icon">✳</div><h3>More work is on the way.</h3><p>New projects will appear here soon.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section section-wrap" id="services">
+      <div class="eyebrow">WHAT I BUILD</div><h2>From simple to <span class="gradient-text">fully interactive.</span></h2>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><div class="service-icon">▤</div><h3>Static Websites</h3><p>Fast, clean and responsive websites for businesses, portfolios and landing pages.</p></article>
+        <article class="service-card"><span class="service-number">02</span><div class="service-icon">⌘</div><h3>Dynamic Websites</h3><p>Database-connected websites with dynamic content and practical functionality.</p></article>
+        <article class="service-card"><span class="service-number">03</span><div class="service-icon">✳</div><h3>Animated Websites</h3><p>Modern websites with smooth motion, engaging interactions and polished details.</p></article>
+        <article class="service-card"><span class="service-number">04</span><div class="service-icon">✦</div><h3>Professional Websites</h3><p>Custom-designed digital experiences tailored to your brand and business goals.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-panel"><div class="eyebrow">HAVE A PROJECT IN MIND?</div><h2>Let's build something<br><span class="gradient-text">great together.</span></h2><p>Tell me about your business and let's create a website that works for you.</p><a class="button button-primary" href="https://wa.me/919506437911" target="_blank" rel="noopener">Discuss your project <span>↗</span></a><div class="contact-orbit">G.</div></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-name">Gautam<span class="brand-dot">.</span></span><span class="brand-sub">WEBSITE DEVELOPMENT</span></a><span>© <span id="year"></span> Gautam. Crafted with care.</span><a href="https://wa.me/919506437911" target="_blank" rel="noopener">Get in touch ↗</a></footer>
+  <script src="app.js"></script>
+</body></html>
